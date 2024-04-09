@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+@media (max-width: 2560px) {
+.navBar {
+    background-color: #0f0f92;
+}
+
+.imgWalker {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ulNav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+
+}
+
+.ulNav li a{
+    color: white;
+    text-decoration: none;
+    font-family: "kanit", sans-serif;
+    
+}
+
+.ulNav a:hover{
+    color: rgb(38, 190, 255);
+}
+
+.enlaces img {
+    padding-top: 4px;
+    padding-right: 2px;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25px;
+    margin:10px
+
+}
+
+.enlaces img:hover {
+    transform: translateY(-2px);
+}
+    
+.menu-icono {
+    width: 25px;
+    }
+
+.navInput{
+    display: none;
+}
+
+label {
+    display: none;
+}
+
+/* BODY - MAIN - HOME */
+
+.contenido {
+   background-image: url(../assets/inicio.png);
+   background-size: cover;
+   background-position: center;
+   min-height: 100vh;
+}
+
+.tituloHome {
+    position: absolute;
+    top: 20%;
+    padding: 50px;
+    font-family: "kanit", sans-serif;
+ 
+} 
+
+.familia {
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+   
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(15,15,146);
+    background: radial-gradient(circle, rgb(173, 173, 177) 0%, rgb(185, 212, 252) 100%);
+
+}
+
+.presentacion h2 {
+    text-align: center;
+    font-family: "kanit", sans-serif;
+    font-weight:bolder;
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+    text-decoration: underline;
+
+    
+}
+
+.equipos {
+    display: flex;
+    justify-content: center;
+    gap:150px;
+    margin-top: 20px;
+}
+
+.equipos img:hover{
+    color: #0f37c6;
+    transform: translateY(-8px);
+}
+
+/* FOOTER - HOME */
+
+footer {
+background-color: #312781;
+padding-top: 30px;
+padding-bottom: 30px;
+color: #ffffff80;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+}
+
+/* RESPONSIVE HOME */
+
+@media (max-width: 1024px) {
+.ulNav {
+        font-size: 14px;
+    }
+
+    .familia{
+        font-size: 60px;
+    }
+
+.presentacion h2 {
+    font-size: 30px;
+
+}
+.equipos {
+    gap:10px;
+    margin-left: 50px;
+}
+.equipos img{
+    width: 70%;
+}
+
+}
+
+@media (max-width: 768px) {
+
+
+.imgWalker {
+    width: 70%;
+    padding-top: 12px;
+}
+
+.ulNav {
+    font-size: 10px;
+}
+
+footer {
+    font-size: 12px;
+}
+
+}
+
+@media (max-width: 684px) {
+
+
+.imgWalker {
+   width: 80;
+   
+}    
+    
+.menu-icono {
+    padding-top: 7px;
+    padding-left: 7px;
+    width: 40px;
+}
+        
+        
+ label {
+    display: block;
+    cursor: pointer; 
+}
+
+.ulNav {
+    display: block;
+    position:fixed;
+    left: -200%;
+    background-color: #0f0f92;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.ulNav li{
+    padding: 2rem;
+    display:flex;
+    justify-content: center;
+
+}
+
+.navInput:checked ~ .ulNav{
+    left: 0%;
+}
+
+.presentacion h2 {
+    font-size: 20px;
+
+}
+.familia {
+    font-size: 45px;
+}
+
+.equipos {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 40%;
+}
+
+}
+
+/* ----------NOSOTROS-------- */
+
+
+@media (max-width: 2560px) {
+.mainNosotros {
+display: grid;
+grid-template-columns: repeat(6,1fr);
+grid-template-rows: repeat(6,1fr);
+grid-area: main;
+}
+
+
+.tituloNosotros {
+    grid-column: 2/6;
+    grid-row: 1/2;
+    
+}
+
+/*  PRIMER GRID CON IMG Y TEXTO */
+.nosotrosPrimero {
+    grid-column: 2/6;
+    grid-row: 1/3;
+    
+}
+
+.imgPrimera{
+width: 100%;
+}
+
+
+.textoUno {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.textoUno p{
+    font-size: 20px;
+    font-family: "kanit", sans-serif;
+    font-weight: bolder;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #33333342;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    
+}
+
+.pUno:hover {
+    box-shadow: inset 700px 0 0 0 #0f0f92;
+    color: white;
+}
+
+
+/*  SEGUNDO GRID CON IMG Y TEXTO */
+.nosotrosSegundo {
+    grid-column: 2/6;
+    grid-row: 3/5;
+}
+
+.imgSegunda{
+    width: 100%;
+}
+
+.textoDos {
+    grid-column: 4/6;
+    grid-row: 3/5;
+}
+.textoDos p{
+    font-size: 20px;
+    font-family: "kanit", sans-serif;
+    font-weight: bolder;
+    color: #33333342;
+    margin-top: 220px;
+    margin-left: 20px;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}    
+.pDos:hover {
+    box-shadow: inset 680px 0 0 0 #0f0f92;
+    color: white;
+    
+}
+/*  TERCERO GRID CON IMG Y TEXTO */
+.nosotrosTercero{
+    grid-column: 2/6;
+    grid-row: 5/7;
+    
+}
+.imgTercera{
+    width: 100%;
+}
+
+.textoTres {
+    grid-column: 2/4;
+    grid-row: 5/7;
+}
+.textoTres p{
+    font-size: 20px;
+    font-family: "kanit", sans-serif;
+    font-weight: bolder;
+    margin-top: 230px;
+    margin-left: 20px;
+    color: #33333342;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.pTres:hover {
+    box-shadow: inset 670px 0 0 0 #0f0f92;
+    color: white;
+   
+}
+
+}
+
+/* __________RESPONSIVE________________ */
+
+@media (max-width: 1144px) {
+.textoUno p{
+    font-size: 15px;
+    
+}
+.textoDos p{
+    font-size: 15px;
+    margin-top: 100px;
+}
+.textoTres p{
+    font-size: 15px;
+    margin-top: 100px;
+}
+
+}
+
+@media (max-width: 778px) {
+
+.textoUno p{
+    font-size: 10px;
+    
+}
+.textoDos p{
+    font-size: 10px;
+    margin-top: 80px;
+}
+.textoTres p{
+    font-size: 10px;
+    margin-top: 80px;
+    margin-right: 10px;
+}
+
+}
+ 
+@media (max-width: 500px) {
+    .textoUno p{
+        font-size: 6px;
+        color: black;
+    }
+    .textoDos p{
+        font-size: 6px;
+        margin-top: 50px;
+        color: black;
+    }
+    .textoTres p{
+        font-size: 6px;
+        margin-top: 50px;
+        color: black;
+    }
+
+
+}
+
+/* ------------ PRODUCTOS------------------ */
+.productoUno{
+    padding-left: 200px;
+}
+
+.productoUno img {
+width: 80%;
+
+}
+
+.productoTexto{
+    background-color: #0f0f92;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "kanit", sans-serif;
+}
+
+.productoTexto p:hover{
+    transform: translateY(-8px);
+}
+
+.productoDos{
+    padding-left: 200px;
+}
+
+.productoDos img{
+    width: 80%;
+}
+
+.productoText{
+    background-color: #0f0f92;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "kanit", sans-serif;
+}
+
+.productoText p:hover{
+    transform: translateY(-8px);
+}
+
+/* -------------CONTACTO-------------*/
+
+.mainContacto {
+    background-image: url(../assets/contacto.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    
+}
+
+.tituloContacto{
+    text-align: center;
+    font-size: 40px;
+   align-self: center;
+   font-family: "kanit", sans-serif;
+   color: #ffffffda;
+   padding-top: 100px;
+   font-weight: bold;
+}
+
+.opciones {
+    display: flex;
+    gap:60px;
+    padding-top: 50px;
+    justify-content: center;
+
+}
+.input {
+    border: 2px solid transparent;
+    width: 300px;
+    height: 50px;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+  
+.input:hover,
+.input:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+}
+  
+
+.shadow__btn {
+    padding: 15px 15px 15px 15px;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    font-family: Arial, sans-serif;
+}
+  
+.shadow__btn {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+}
+  
+.shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+}
+  
+.informacion {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 270px;
+    padding-bottom: 100px;
+}
+
+.imagenIso  {
+    padding-left: 80px;
+    
+}
+
+.isotipowkr {
+    width: 150px;
+}
+
+.isotipowkr:hover {
+    box-shadow: 0 0 51px rgb(0,140,255),
+    0 0 25px rgb(0,140,255),
+    0 0 50px rgb(0,140,255),
+    0 0 100px rgb(0,140,255);
+}
+
+.data {
+    padding-right: 80px;
+    font-family: Arial, sans-serif;
+    color: #707070c0;
+}
+
+
+/*--------------TIENDA -------------*/
+
+.primerTexto {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: "kanit", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#fff;
+}
+
+.fotoTienda img {
+    width: 100%;
+    height: 100%;
+}
+
+.novedades {
+    font-family: "kanit", sans-serif;
+    background-color: #0f0f92;
+    text-align: center;
+    color: #fff;
+    margin: 50px 100px;
+    font-size: 15px;
+    
+   
+}
+
+.productosTienda {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    overflow-y: auto;
+    margin: 50px 100px;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #F3F3F3;
+}
+
+.cardTienda:hover {
+    background-color: #4A9DEC;
+    border: 2px solid #4A9DEC;
+    color: white;
+    
+}
+
+.textCard {
+    display: flex;
+    justify-content: space-between;
+    font-family: "kanit", sans-serif;
+    font-weight: light;
+    color: #000000c0;
+}
+
+.shopCard {
+    width: 30px;
+    padding-top: 30px;
+}
+
+
+.c4 {
+    width: 300px; 
+}
+
+

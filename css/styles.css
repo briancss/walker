@@ -92,8 +92,11 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgb(15,15,146);
-    background: radial-gradient(circle, rgb(173, 173, 177) 0%, rgb(185, 212, 252) 100%);
+   background-color: #0f0f92;
+}
+
+.presentacion:hover {
+    background-image: radial-gradient(circle, #0f0f92, #282aa1, #3c40af, #4e56bd, #616cca);
 
 }
 

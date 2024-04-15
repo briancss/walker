@@ -412,20 +412,97 @@ background-color: #0f0f92;
 /* __________RESPONSIVE________________ */
 
 @media (max-width: 1144px) {
-
+    .nosotrosUno h2 {
+        font-size: 40px;
+        
+    }
+    
+    .numeroOnce{
+        font-size: 40px;
+       
+    
+    }
+    .pUno {
+        font-size: 15px;
+      
     }
 
+    .numeroOcho {
+        font-size: 40px;
+    }
+    
+    .pDos {
+        font-size: 15px;
+    }
 
+.numeroCuatro {
+    font-size: 40px;
+}
+
+.pTres {
+    font-size: 15px;
+}
+
+.valoresTitle {
+    font-size: 40px;
+}
+
+.pCuatro {
+    font-size: 15px;
+}
 }
 
 @media (max-width: 778px) {
+    .nosotrosUno h2 {
+        font-size: 30px;
+        
+    }
+    
+    .numeroOnce{
+        font-size: 30px;
+       
+    
+    }
+    .pUno {
+        font-size: 10px;
+      
+    }
+
+    .numeroOcho {
+        font-size: 30px;
+    }
+    
+    .pDos {
+        font-size: 10px;
+    }
+
+.numeroCuatro {
+    font-size: 30px;
+}
+
+.pTres {
+    font-size: 10px;
+}
+
+.valoresTitle {
+    font-size: 30px;
+}
+
+.pCuatro {
+    font-size: 10px;
+}
 
 
 
 }
  
 @media (max-width: 500px) {
-
+    .villegas img {
+        width: 80%;
+    }
+    .imageNosotros img {
+        width: 20%;
+    }
 
 
 }

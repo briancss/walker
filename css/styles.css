@@ -240,166 +240,192 @@ footer {
 
 
 @media (max-width: 2560px) {
+
+
+
 .mainNosotros {
 display: grid;
 grid-template-columns: repeat(6,1fr);
 grid-template-rows: repeat(6,1fr);
 grid-area: main;
+background-color: #0f0f92;
 }
 
 
-.tituloNosotros {
-    grid-column: 2/6;
-    grid-row: 1/2;
-    
-}
 
-/*  PRIMER GRID CON IMG Y TEXTO */
-.nosotrosPrimero {
-    grid-column: 2/6;
+.imagenFront {
+    grid-column: 1/7;
     grid-row: 1/3;
-    
-}
-
-.imgPrimera{
-width: 100%;
-}
-
-
-.textoUno {
-    grid-column: 2/4;
-    grid-row: 2/3;
-}
-.textoUno p{
-    font-size: 20px;
-    font-family: "kanit", sans-serif;
-    font-weight: bolder;
-    box-shadow: inset 0 0 0 0 #54b3d6;
-    color: #33333342;
-    margin: 0 -.25rem;
-    padding: 0 .25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-    
-}
-
-.pUno:hover {
-    box-shadow: inset 700px 0 0 0 #0f0f92;
-    color: white;
-}
-
-
-/*  SEGUNDO GRID CON IMG Y TEXTO */
-.nosotrosSegundo {
-    grid-column: 2/6;
-    grid-row: 3/5;
-}
-
-.imgSegunda{
-    width: 100%;
-}
-
-.textoDos {
-    grid-column: 4/6;
-    grid-row: 3/5;
-}
-.textoDos p{
-    font-size: 20px;
-    font-family: "kanit", sans-serif;
-    font-weight: bolder;
-    color: #33333342;
-    margin-top: 220px;
-    margin-left: 20px;
-    box-shadow: inset 0 0 0 0 #54b3d6;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}    
-.pDos:hover {
-    box-shadow: inset 680px 0 0 0 #0f0f92;
-    color: white;
-    
-}
-/*  TERCERO GRID CON IMG Y TEXTO */
-.nosotrosTercero{
-    grid-column: 2/6;
-    grid-row: 5/7;
-    
-}
-.imgTercera{
-    width: 100%;
-}
-
-.textoTres {
-    grid-column: 2/4;
-    grid-row: 5/7;
-}
-.textoTres p{
-    font-size: 20px;
-    font-family: "kanit", sans-serif;
-    font-weight: bolder;
-    margin-top: 230px;
-    margin-left: 20px;
-    color: #33333342;
-    box-shadow: inset 0 0 0 0 #54b3d6;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-.pTres:hover {
-    box-shadow: inset 670px 0 0 0 #0f0f92;
-    color: white;
    
 }
+
+.nosotrosTt{
+    grid-column: 1/7;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 100px;
+    font-family: "kanit", sans-serif;
+    color: #ffffff;
+
+}
+
+.imagenFront img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*  PRIMER GRID */
+
+.nosotrosUno {
+    grid-column: 2/6;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.nosotrosUno h2 {
+    color: #ffffff;
+    font-family: "kanit", sans-serif;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.numeroOnce{
+    text-align: center;
+    font-size: 50px;
+    font-family: "kanit", sans-serif;
+    color: #fff;
+    padding-top: 10px;
+
+}
+.pUno {
+    text-align: center;
+    font-size: 19px;
+    font-family: "kanit", sans-serif;
+    color: #fff;
+}
+
+.villegas {
+    display: flex;
+    justify-content: center;
+}
+
+.villegas img {
+    width: auto;
+}
+
+.villegas img:hover {
+    transform: scale(1.2);
+    
+    
+}
+
+/*  SEGUNDO GRID    */
+
+.nosotrosDos {
+    grid-column: 2/6;
+    grid-row: 4/5;
+    padding-top: 50px;
+}
+
+.numeroOcho {
+    text-align: center;
+    font-size: 50px;
+    font-family: "kanit", sans-serif;
+    color: #fff;
+}
+
+.pDos {
+    text-align: center;
+    font-size: 19px;
+    font-family: "kanit", sans-serif;
+    color: #fff;
+
+}
+
+/* TERCER GRID **/ 
+
+.nosotrosTres {
+    grid-column: 2/6;
+    grid-row: 5/6;
+    
+}
+
+.numeroCuatro {
+    text-align: center;
+    font-size: 50px;
+    font-family: "kanit", sans-serif;
+    color: #fff;
+}
+
+.pTres {
+    text-align: center;
+    font-size: 19px;
+    font-family: "kanit", sans-serif;
+    color: #fff;
+}
+
+.imageNosotros {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.imageNosotros img {
+    width: 10%;
+}
+
+.imageNosotros img:hover {
+    transform: scale(1.5);
+}
+
+/* CUARTO GRID **/ 
+
+.Valores {
+    grid-column: 2/6;
+    grid-row: 6/7;
+    padding: 40px 40px 0px 40px;
+    
+}
+
+.valoresTitle {
+    text-align: center;
+    font-size: 35px;
+    font-family: "kanit", sans-serif;
+    background-color:  #0f0f92;
+    color: #ffffff;
+}
+
+.pCuatro {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 19px;
+    font-family: "kanit", sans-serif;
+    color: #fff;
+}
+
+
 
 }
 
 /* __________RESPONSIVE________________ */
 
 @media (max-width: 1144px) {
-.textoUno p{
-    font-size: 15px;
-    
-}
-.textoDos p{
-    font-size: 15px;
-    margin-top: 100px;
-}
-.textoTres p{
-    font-size: 15px;
-    margin-top: 100px;
-}
+
+    }
+
 
 }
 
 @media (max-width: 778px) {
 
-.textoUno p{
-    font-size: 10px;
-    
-}
-.textoDos p{
-    font-size: 10px;
-    margin-top: 80px;
-}
-.textoTres p{
-    font-size: 10px;
-    margin-top: 80px;
-    margin-right: 10px;
-}
+
 
 }
  
 @media (max-width: 500px) {
-    .textoUno p{
-        font-size: 6px;
-        color: black;
-    }
-    .textoDos p{
-        font-size: 6px;
-        margin-top: 50px;
-        color: black;
-    }
-    .textoTres p{
-        font-size: 6px;
-        margin-top: 50px;
-        color: black;
-    }
+
 
 
 }

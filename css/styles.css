@@ -508,50 +508,214 @@ background-color: #0f0f92;
 }
 
 /* ------------ PRODUCTOS------------------ */
-.productoUno{
-    padding-left: 200px;
-}
+
+
 
 .productoUno img {
-width: 80%;
-
+    width: 100%;
+    height: 100%;
 }
 
-.productoTexto{
+.articulos {
     background-color: #0f0f92;
-    color: white;
+
+}
+
+.articulos h1 {
     text-align: center;
-    font-size: 30px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    color:white;
     font-family: "kanit", sans-serif;
+    font-size: 26px;
 }
 
-.productoTexto p:hover{
-    transform: translateY(-8px);
+.gridProd {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-area: product;
+    padding-top: 4px;
 }
 
-.productoDos{
-    padding-left: 200px;
+.grid1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
 }
+       .grid1:hover{
+        filter: grayscale(0%);
+        filter: gray;
+        -webkit-filter: grayscale(0%);
+        filter: none;
+        transition: 1s ease;
+        }
 
-.productoDos img{
-    width: 80%;
+.grid2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
 }
+.grid2:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+.grid3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+    .grid3:hover{
+        filter: grayscale(0%);
+        filter: gray;
+        -webkit-filter: grayscale(0%);
+        filter: none;
+        transition: 1s ease;
+        }
 
-.productoText{
-    background-color: #0f0f92;
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-family: "kanit", sans-serif;
+.grid4 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    width: 100%;
+    transition: 1s ease;
 }
+.grid4:hover:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    }
+.grid5 {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+.grid5:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+.grid6 {
+    grid-column: 6/7;
+    grid-row: 1/2;
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+.grid6:hover:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+.grid7 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+.grid7:hover:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+.grid8 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+.grid8:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+.grid9 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+.grid9:hover:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+.grid10 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+.grid10:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+.grid11 {
+    grid-column: 5/6;
+    grid-row: 2/3;
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+.grid11:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+.grid12 {
+    grid-column: 6/7;
+    grid-row: 2/3;
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+.grid12:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
 
-.productoText p:hover{
-    transform: translateY(-8px);
-}
 
 /* -------------CONTACTO-------------*/
 

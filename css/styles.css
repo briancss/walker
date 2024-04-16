@@ -379,19 +379,18 @@ margin-top: 25px;
 
 /* __________RESPONSIVE________________ */
 
-@media (max-width: 1144px) {
-    .nosotrosUno h2 {
-        font-size: 40px;
-        
-    }
-    
+@media (max-width: 1440px) {
+  
+
     .numeroOnce{
-        font-size: 40px;
+        font-size: 35px;
        
     
     }
     .pUno {
+        text-align: left;
         font-size: 15px;
+        padding-left: 295px;
       
     }
 
@@ -408,7 +407,9 @@ margin-top: 25px;
 }
 
 .pTres {
+    text-align: left;
     font-size: 15px;
+    padding-left: 320px;
 }
 
 .valoresTitle {
@@ -420,12 +421,8 @@ margin-top: 25px;
 }
 }
 
-@media (max-width: 778px) {
-    .nosotrosUno h2 {
-        font-size: 30px;
-        
-    }
-    
+@media (max-width: 1024px) {
+
     .numeroOnce{
         font-size: 30px;
        
@@ -433,6 +430,7 @@ margin-top: 25px;
     }
     .pUno {
         font-size: 10px;
+        padding-left: 235px;
       
     }
 
@@ -446,10 +444,12 @@ margin-top: 25px;
 
 .numeroCuatro {
     font-size: 30px;
+    
 }
 
 .pTres {
     font-size: 10px;
+    padding-left: 265px;
 }
 
 .valoresTitle {
@@ -460,17 +460,64 @@ margin-top: 25px;
     font-size: 10px;
 }
 
+/* FOOTER*/
 
+footer p {
+    font-size: 13px;
+}
 
 }
  
-@media (max-width: 500px) {
-    .villegas img {
-        width: 80%;
+@media (max-width: 768px) {
+    .numeroOnce{
+        font-size: 30px;
+        padding-left: 20px;
+       
+    
     }
-    .imageNosotros img {
-        width: 20%;
+    .pUno {
+        font-size: 10px;
+        padding-left: 235px;
+      
     }
+
+    .numeroCuatro {
+        font-size: 30px;
+        padding-left: 80px;
+        
+    }
+    
+    .pTres {
+        font-size: 10px;
+        padding-left: 265px;
+    }
+}
+
+@media (max-width: 700px) {
+    .nosotrosUno {
+        background: none;
+    }
+    .numeroOnce{
+        text-align: center;
+        padding-left: 0;
+    }
+    .pUno {
+        text-align: center;
+        padding-left: 0;
+       
+    }
+    .nosotrosTres{
+        background: none;
+    }
+    .numeroCuatro{
+        text-align: center;
+        padding-left: 0;
+    }
+    .pTres{
+        padding-left: 0;
+        text-align: center;
+    }
+
 
 
 }
@@ -691,6 +738,33 @@ margin-top: 25px;
     text-decoration: none;
     color: #ffffff80;
 }
+
+/*  RESPONSIVE   */
+
+@media (max-width: 800px) {
+    .articulos h1 {
+        text-align: center;
+        color:white;
+        font-family: "kanit", sans-serif;
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 500px) {
+
+    .mainProductos{
+        background-image: url(../assets/tiendabackground.png);
+    }
+    .gridProd{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 100px 20px 100px;
+    
+    }
+
+}
+
+
 
 
 /* -------------CONTACTO-------------*/

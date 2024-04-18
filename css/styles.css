@@ -954,11 +954,9 @@ footer p {
 }
 
 .cardTienda:hover {
-    background-color: #4A9DEC;
-    border: 1px solid #4A9DEC;
-    color: white;
-    
+    background-color:#7a7aff;
 }
+
 
 .textCard {
     display: flex;

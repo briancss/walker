@@ -421,7 +421,7 @@
     grid-area: product;
     padding-top: 4px;
   }
-  .grid1 {
+  .grid1, .grid12, .grid11, .grid10, .grid9, .grid8, .grid7, .grid6, .grid5, .grid4, .grid3, .grid2 {
     grid-column: 1/2;
     grid-row: 1/2;
     width: 100%;
@@ -429,7 +429,7 @@
     -webkit-filter: grayscale(100%);
     -webkit-transition: all 1s ease;
   }
-  .grid1:hover {
+  .grid1:hover, .grid12:hover, .grid11:hover, .grid10:hover, .grid9:hover, .grid8:hover, .grid7:hover, .grid6:hover, .grid5:hover, .grid4:hover, .grid3:hover, .grid2:hover {
     filter: grayscale(0%);
     filter: gray;
     -webkit-filter: grayscale(0%);
@@ -439,10 +439,6 @@
   .grid2 {
     grid-column: 2/3;
     grid-row: 1/2;
-    width: 100%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: all 1s ease;
   }
   .grid2:hover {
     filter: grayscale(0%);
@@ -454,10 +450,6 @@
   .grid3 {
     grid-column: 3/4;
     grid-row: 1/2;
-    width: 100%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: all 1s ease;
   }
   .grid3:hover {
     filter: grayscale(0%);
@@ -469,10 +461,6 @@
   .grid4 {
     grid-column: 4/5;
     grid-row: 1/2;
-    width: 100%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: all 1s ease;
   }
   .grid4:hover:hover {
     filter: grayscale(0%);
@@ -484,10 +472,6 @@
   .grid5 {
     grid-column: 5/6;
     grid-row: 1/2;
-    width: 100%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: all 1s ease;
   }
   .grid5:hover {
     filter: grayscale(0%);
@@ -499,10 +483,6 @@
   .grid6 {
     grid-column: 6/7;
     grid-row: 1/2;
-    width: 100%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: all 1s ease;
   }
   .grid6:hover:hover {
     filter: grayscale(0%);
@@ -514,10 +494,6 @@
   .grid7 {
     grid-column: 1/2;
     grid-row: 2/3;
-    width: 100%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: all 1s ease;
   }
   .grid7:hover:hover {
     filter: grayscale(0%);
@@ -529,10 +505,6 @@
   .grid8 {
     grid-column: 2/3;
     grid-row: 2/3;
-    width: 100%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: all 1s ease;
   }
   .grid8:hover {
     filter: grayscale(0%);
@@ -544,10 +516,6 @@
   .grid9 {
     grid-column: 3/4;
     grid-row: 2/3;
-    width: 100%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: all 1s ease;
   }
   .grid9:hover:hover {
     filter: grayscale(0%);
@@ -559,10 +527,6 @@
   .grid10 {
     grid-column: 4/5;
     grid-row: 2/3;
-    width: 100%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: all 1s ease;
   }
   .grid10:hover {
     filter: grayscale(0%);
@@ -574,10 +538,6 @@
   .grid11 {
     grid-column: 5/6;
     grid-row: 2/3;
-    width: 100%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: all 1s ease;
   }
   .grid11:hover {
     filter: grayscale(0%);
@@ -589,10 +549,6 @@
   .grid12 {
     grid-column: 6/7;
     grid-row: 2/3;
-    width: 100%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: all 1s ease;
   }
   .grid12:hover {
     filter: grayscale(0%);

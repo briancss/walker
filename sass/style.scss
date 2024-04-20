@@ -1,10 +1,14 @@
 
+/* UTILITIES */
+@import "./utilities/variables.scss";
+
+@import "./utilities/mixins";
+
+/* BASES */ 
+
 @import "./base/typographys.scss";
 
 @import "./base/reset";
-
-@import "./utilities/variables.scss";
-
 
 
 @media (max-width: 2560px) {
@@ -19,15 +23,13 @@
 }
 
 .barra {
-    display: flex;
-    justify-content: space-between;
+ @include flex (space-between, none, none, none);
 }
 
 .ulNav {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 20px;
+
+@include flex (none, center, none, 20px);
+
 }
 
 .ulNav li a{
@@ -115,9 +117,7 @@ label {
 }
 
 .equipos {
-    display: flex;
-    justify-content: center;
-    gap:150px;
+    @include flex (center, none, none, 20px);
     margin-top: 20px;
 }
 
@@ -264,13 +264,13 @@ footer {
     font-size: 20px;
 }
 
+
 .gridNosotros {
-    display: grid;
-    grid-template-columns:repeat(6, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    @include grid (repeat(6, 1fr), repeat(4, 1fr) );
     grid-area: nosotros;
     background-image: url(../assets/tiendabackground.png);
 }
+
 
 .nosotrosUno {
     grid-column: 2/6;
@@ -548,9 +548,7 @@ footer p {
 }
 
 .gridProd {
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    grid-template-rows: repeat(2,1fr);
+    @include grid (repeat(6, 1fr), repeat(2, 1fr) );
     grid-area: product;
     padding-top: 4px;
 }
@@ -824,10 +822,9 @@ grid-column: 1/2;
 }
 
 .opciones {
-    display: flex;
-    gap:60px;
+    @include flex (center, none, none, 60px);
     padding-top: 50px;
-    justify-content: center;
+    
 
 }
 .input {

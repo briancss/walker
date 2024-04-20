@@ -171,12 +171,13 @@
     background-color: #0f0f92;
     width: 100%;
     height: 100vh;
+    right: 0;
   }
   .ulNav li {
-    padding: 2rem;
     display: flex;
     justify-content: center;
     background-color: #0f0f92;
+    padding: 2rem;
   }
   .navInput:checked ~ .ulNav {
     left: 0%;
@@ -186,6 +187,7 @@
   }
   .familia {
     font-size: 40px;
+    
   }
   .equipos {
     display: flex;
@@ -690,6 +692,105 @@
     color: rgba(112, 112, 112, 0.7529411765);
   }
 }
+
+@media (max-width: 768px) {
+  .tituloContacto {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.581);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.119) ;
+  }
+
+  .data {
+    padding-right: 80px;
+    font-family: Arial, sans-serif;
+    color: rgba(81, 81, 81, 0.753);
+  }
+
+  
+  .opciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-top: 50px;
+  }
+
+  .informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+   
+  }
+  .imagenIso {
+    padding-left: 0;
+    padding-bottom: 50px;
+    
+  }
+  .isotipowkr {
+    width: 100px;
+  }
+  .isotipowkr:hover {
+    box-shadow: 0 0 51px rgb(0, 140, 255), 0 0 25px rgb(0, 140, 255), 0 0 50px rgb(0, 140, 255), 0 0 100px rgb(0, 140, 255);
+  }
+  .data {
+    padding-right: 0px;
+    font-family: Arial, sans-serif;
+    color: rgba(112, 112, 112, 0.7529411765);
+  }
+
+  .data p{
+    text-align: center;
+    
+  }
+
+
+}
+  @media (max-width: 500px) {
+    .tituloContacto {
+      font-size: 20px;
+      color: rgba(255, 255, 255, 0.581);
+      text-shadow: 2px 2px rgba(0, 0, 0, 0.119) ;
+    }
+
+    .informacion {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 100px;
+     
+    }
+    .imagenIso {
+      padding-left: 0;
+      padding-bottom: 50px;
+      
+    }
+    .isotipowkr {
+      width: 100px;
+    }
+    .isotipowkr:hover {
+      box-shadow: 0 0 51px rgb(0, 140, 255), 0 0 25px rgb(0, 140, 255), 0 0 50px rgb(0, 140, 255), 0 0 100px rgb(0, 140, 255);
+    }
+    .data {
+      padding-right: 0px;
+      font-family: Arial, sans-serif;
+      color: rgba(112, 112, 112, 0.7529411765);
+    }
+
+    .data p{
+      text-align: center;
+      
+    }
+
+
+}
+
+
+
+
 /*--------------TIENDA -------------*/
 @media (max-width: 2560px) {
   .primerTexto {

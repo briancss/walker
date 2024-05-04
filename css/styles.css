@@ -70,10 +70,12 @@
     top: 20%;
     padding: 50px;
     font-family: "kanit", sans-serif;
+    width: 550px;
   }
   .familia {
     font-size: 80px;
     color: rgb(255, 255, 255);
+    word-break: break-all;
   }
   .presentacion {
     display: flex;
@@ -139,6 +141,9 @@
   .equipos img {
     width: 70%;
   }
+  .tituloHome {
+    width: 450px;
+  }
 }
 @media (max-width: 768px) {
   .imgWalker {
@@ -150,6 +155,12 @@
   }
   footer {
     font-size: 12px;
+  }
+  .tituloHome {
+    width: 390px;
+  }
+  .familia {
+    font-size: 45px;
   }
 }
 @media (max-width: 684px) {
@@ -185,8 +196,11 @@
   .presentacion h2 {
     font-size: 20px;
   }
+  .tituloHome {
+    width: 310px;
+  }
   .familia {
-    font-size: 40px;
+    font-size: 37px;
   }
   .equipos {
     display: flex;

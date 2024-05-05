@@ -419,6 +419,9 @@
     -webkit-filter: grayscale(100%);
     -webkit-transition: all 1s ease;
   }
+
+
+  }
   .grid1:hover, .grid12:hover, .grid11:hover, .grid10:hover, .grid9:hover, .grid8:hover, .grid7:hover, .grid6:hover, .grid5:hover, .grid4:hover, .grid3:hover, .grid2:hover {
     filter: grayscale(0%);
     filter: gray;
@@ -580,7 +583,7 @@
 }
 @media (max-width: 683px) {
   .mainProductos {
-    background-image: url(../assets/tiendabackground.png);
+    background-image: linear-gradient(to left bottom, #0f0f92, #0f1287, #11147c, #121571, #141666, #14166a, #14176e, #141772, #121785, #101799, #0f15ad, #1111c1);
   }
   .gridProd {
     display: flex;

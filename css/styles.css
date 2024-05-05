@@ -221,206 +221,170 @@
     color: rgb(255, 255, 255);
     font-family: "kanit", sans-serif;
     font-size: 20px;
+    
   }
   .gridNosotros {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-area: nosotros;
-    background-image: url(../assets/tiendabackground.png);
+    background-image: linear-gradient(to left bottom, #0f0f92, #0f1287, #11147c, #121571, #141666, #14166a, #14176e, #141772, #121785, #101799, #0f15ad, #1111c1);
   }
   .nosotrosUno {
-    grid-column: 2/6;
+    grid-column: 2/4;
     grid-row: 1/2;
-    text-align: center;
+    padding-top: 50px;
+  }
+  .imgNosotrosuno{
     width: 100%;
-    background-image: url(../assets/NOSOTROS1.1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 25px;
   }
-  .numeroOnce {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 35px;
-    font-family: "kanit", sans-serif;
+  .cajatextUno{
+    grid-column: 4/6;
+    grid-row: 1/2;
+    padding-top: 50px;
   }
-  .pUno {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
+  .pUno{
+    color: #fefffa;
     font-family: "kanit", sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
   }
   .nosotrosDos {
-    grid-column: 2/6;
+    grid-column: 4/6;
     grid-row: 2/3;
-    text-align: center;
+  }
+  .imgNosotrosdos{
     width: 100%;
-    padding-top: 35px;
-    background-size: cover;
   }
-  .numeroOcho {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 35px;
+  .cajatextDos{
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  .pDos{
+    color: #fefffa;
     font-family: "kanit", sans-serif;
+    font-size: 18px;
+    padding-right: 10px;
   }
-  .pDos {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-    font-family: "kanit", sans-serif;
-  }
-  .nosotrosTres {
-    grid-column: 2/6;
+  .nosotrosTres{
+    grid-column: 2/4;
     grid-row: 3/4;
-    text-align: center;
-    background-image: url(../assets/NOSOTROS1.3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
-  .numeroCuatro {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 35px;
-    font-family: "kanit", sans-serif;
+  .imgNosotrostres {
+    width: 100%;
   }
-  .pTres {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
+  .cajatextTres{
+    grid-column: 4/6;
+    grid-row: 3/4;
+  }
+  .pTres{
+    color: #fefffa;
     font-family: "kanit", sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
   }
   .Valores {
-    grid-column: 2/6;
+    grid-column:2/6 ;
     grid-row: 4/5;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
   }
-  .valoresTitle {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 35px;
+  .valoresTitle{
+    color: #fefffa;
     font-family: "kanit", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    
   }
   .pCuatro {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
+    color: #fefffa;
     font-family: "kanit", sans-serif;
+    font-size: 18px;
+    text-align: center;
   }
-  .videosIg {
+  .valoresCaaja{
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .valoresImg{
+    width: 50%;
   }
 }
 /* __________RESPONSIVE________________ */
 @media (max-width: 1440px) {
-  .numeroOnce {
-    font-size: 35px;
-  }
-  .pUno {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 295px;
-  }
-  .numeroOcho {
-    font-size: 40px;
-  }
-  .pDos {
-    font-size: 15px;
-  }
-  .numeroCuatro {
-    font-size: 35px;
-    padding-left: 30px;
-  }
-  .pTres {
-    text-align: left;
-    font-size: 15px;
-    padding-left: 320px;
-  }
-  .valoresTitle {
-    font-size: 40px;
-  }
-  .pCuatro {
-    font-size: 15px;
-  }
+
 }
 @media (max-width: 1024px) {
-  .numeroOnce {
-    font-size: 30px;
+  .pUno{
+    font-size: 15px;
   }
-  .pUno {
-    font-size: 10px;
-    padding-left: 235px;
+  .pDos{
+    font-size: 15px;
   }
-  .numeroOcho {
-    font-size: 30px;
+  .pTres{
+    font-size: 15px;
   }
-  .pDos {
-    font-size: 10px;
+  .pCuatro{
+    font-size: 15px;
   }
-  .numeroCuatro {
-    font-size: 30px;
-    padding-left: 80px;
-  }
-  .pTres {
-    font-size: 10px;
-    padding-left: 265px;
-  }
-  .valoresTitle {
-    font-size: 30px;
-  }
-  .pCuatro {
-    font-size: 10px;
-  }
+
   /* FOOTER*/
   footer p {
     font-size: 13px;
   }
 }
 @media (max-width: 768px) {
-  .numeroOnce {
-    font-size: 30px;
-    padding-left: 60px;
-  }
-  .pUno {
-    font-size: 10px;
-    padding-left: 235px;
-  }
-  .numeroCuatro {
-    font-size: 30px;
-    padding-left: 120px;
-  }
-  .pTres {
-    font-size: 10px;
-    padding-left: 265px;
-  }
+
+
 }
 @media (max-width: 700px) {
-  .nosotrosUno {
-    background: none;
+  .gridNosotros{
+    display: flex;
+    flex-direction: column;
   }
-  .numeroOnce {
-    text-align: center;
-    padding-left: 0;
+  .nosotrosUno{
+    padding-top: 0px;
+    margin: 10px 50px 0px 50px;
+    order:1;
   }
-  .pUno {
-    text-align: center;
-    padding-left: 0;
-  }
-  .nosotrosTres {
-    background: none;
-  }
-  .numeroCuatro {
-    text-align: center;
-    padding-left: 0;
-  }
-  .pTres {
-    padding-left: 0;
+  .cajatextUno{
+    padding-top: 10px;
+    margin: 0px 50px 0px 50px;
+    order:2;
     text-align: center;
   }
+  .nosotrosDos{
+    margin: 10px 50px 10px 50px;
+    order:3;
+  }
+  .cajatextDos{
+    margin: 0px 50px 0px 50px;
+    order:4;
+    text-align: center;
+  }
+  .nosotrosTres{
+    margin: 10px 50px 10px 50px;
+    order:5;
+  }
+  .cajatextTres{
+    margin: 0px 50px 0px 50px;
+    order:6;
+    text-align: center;
+  }
+  .Valores {
+    margin: 100px 50px 10px 50px;
+    order:7;
+  }
+  .valoresCaaja{
+    margin: 0px 50px 0px 50px;
+    order:8;
+    text-align: center;
+  }
+  .valoresImg {
+    display: none;
+  }
+
+
 }
 /* ------------ PRODUCTOS------------------ */
 @media (max-width: 2560px) {
@@ -721,8 +685,8 @@
     height: 100%;
   }
   .mainTienda {
-    background-image: url(../assets/tiendabackground.png);
-    height: auto;
+    background-image: linear-gradient(to left bottom, #0f0f92, #0f1287, #11147c, #121571, #141666, #14166a, #14176e, #141772, #121785, #101799, #0f15ad, #1111c1);
+
   }
   .novedades {
     font-family: "kanit", sans-serif;
@@ -773,7 +737,7 @@
     font-size: 20px;
   }
   .mas h2:hover {
-    background-color: #0f0f92;
+    background-color: #2b2bc7;
     margin: 0px 650px 0px 650px;
   }
   .mas h2 a {

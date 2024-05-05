@@ -557,11 +557,27 @@
     font-family: "kanit", sans-serif;
     color: rgb(255, 255, 255);
   }
-  .accede a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.5019607843);
+  .catalogos {
+    background-image: linear-gradient(to left bottom, #0f0f92, #0f1287, #11147c, #121571, #141666, #14166a, #14176e, #141772, #121785, #101799, #0f15ad, #1111c1);
+ 
   }
+.bannerCat{
+display: grid;
+  place-content: center;
+  gap:20px;
 }
+
+.bRugby:hover, .bHockey:hover, .bOutfit:hover, .bFFAA:hover {
+  filter: drop-shadow(0 2px 15px rgb(85, 85, 183));
+}
+
+
+  }
+
+
+
+
+
 
 /*  RESPONSIVE   */
 @media (max-width: 1024px) {

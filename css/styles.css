@@ -563,30 +563,31 @@
   }
 .bannerCat{
 display: grid;
-  place-content: center;
+  place-items: center;
   gap:20px;
 }
 
 .bRugby:hover, .bHockey:hover, .bOutfit:hover, .bFFAA:hover {
   filter: drop-shadow(0 2px 15px rgb(85, 85, 183));
 }
-
-
-  }
-
-
-
-
-
+}
 
 /*  RESPONSIVE   */
 @media (max-width: 1024px) {
   .articulos h1 {
     font-size: 18px;
   }
-  .accede {
+  .accede{
     font-size: 18px;
   }
+.bannerCat{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bRugby, .bHockey, .bOutfit, .bFFAA{
+  width: 500px;
+}
 }
 @media (max-width: 768px) {
   .articulos h1 {
@@ -594,6 +595,9 @@ display: grid;
   }
   .accede {
     font-size: 15px;
+  }
+  .bRugby, .bHockey, .bOutfit, .bFFAA{
+    width: 400px;
   }
 }
 @media (max-width: 753px) {
@@ -605,6 +609,9 @@ display: grid;
     order: 2;
     flex-direction: column;
     margin: 20px 100px 20px 100px;
+  }
+  .bRugby, .bHockey, .bOutfit, .bFFAA{
+    width: 350px;
   }
 }
 /* -------------CONTACTO-------------*/

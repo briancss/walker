@@ -420,8 +420,7 @@
     -webkit-transition: all 1s ease;
   }
 
-
-  }
+  
   .grid1:hover, .grid12:hover, .grid11:hover, .grid10:hover, .grid9:hover, .grid8:hover, .grid7:hover, .grid6:hover, .grid5:hover, .grid4:hover, .grid3:hover, .grid2:hover {
     filter: grayscale(0%);
     filter: gray;
@@ -564,6 +563,7 @@
     color: rgba(255, 255, 255, 0.5019607843);
   }
 }
+
 /*  RESPONSIVE   */
 @media (max-width: 1024px) {
   .articulos h1 {
@@ -601,13 +601,18 @@
     min-height: 100vh;
   }
   .tituloContacto {
-    text-align: center;
-    font-size: 40px;
-    align-self: center;
-    font-family: "kanit", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+  }
+  .textContacto {
     color: rgba(255, 255, 255, 0.8549019608);
-    padding-top: 100px;
+    font-size: 65px;
+    font-family: "kanit", sans-serif;
+    text-align: center;
     font-weight: bold;
+    width: 50%;
+    text-shadow: 1px 5px 50px rgb(163, 163, 163);
   }
   .opciones {
     display: flex;
@@ -672,9 +677,68 @@
   .data {
     padding-right: 80px;
     font-family: Arial, sans-serif;
-    color: rgba(112, 112, 112, 0.7529411765);
+    color: #fefffa;
+    text-shadow: 5px 5px 10px #525252;
   }
 }
+@media (max-width: 1024px) {
+  .textContacto {
+    font-size: 50px;
+  }
+  .data {
+    color: #fefffa;
+    text-shadow: 1px 5px 10px #525252;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .textContacto {
+    font-size: 40px;
+  }
+
+
+}
+
+@media (max-width: 600px) {
+  .opciones {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 100px 20px 100px;
+    gap: 50px;
+  }
+  .input {
+    border: 2px solid transparent;
+    width: auto;
+    height: 50px;
+    padding-left: 0;
+    outline: none;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+
+  .informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.imagenIso{
+  padding-left: 0;
+  align-self: center;
+  padding-bottom: 50px;
+}  
+.data {
+text-align: center;
+padding-right: 0;
+  color: #ffffff;
+  text-shadow: 1px 5px 10px #424242;
+}
+
+
+}
+
+
 /*--------------TIENDA -------------*/
 @media (max-width: 2560px) {
   .primerTexto {

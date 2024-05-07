@@ -1,0 +1,56 @@
+.contenido {
+    background-image: url(../assets/inicio.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+ }
+ 
+ .tituloHome {
+    padding-left: 50px;
+    padding-top: 150px;
+     font-family: $tipografia;
+     width: 550px;
+  
+ } 
+ 
+ .familia {
+     font-size: 80px;
+     color: rgb(255, 255, 255);
+    
+ }
+ 
+ .presentacion {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-image: $gradiente;
+ }
+ 
+ 
+ 
+ .presentacion h2 {
+     text-align: center;
+     font-family: $tipografia;
+     font-weight:bolder;
+     font-size: 50px;
+     color: $fuente;
+     margin-top: 20px;
+     text-decoration: underline;
+ 
+     
+ }
+ 
+ .equipos {
+     @include flex (center, none, none, 20px);
+     margin-top: 20px;
+ }
+ 
+ .villegasImg:hover {
+     filter: drop-shadow(0 10px 10px rgb(244, 244, 244))
+   }
+   .centroImg:hover {
+     filter: drop-shadow(0 10px 10px rgb(253, 226, 51))
+   }
+   .estudiantesImg:hover {
+     filter: drop-shadow(0 10px 10px rgb(90, 150, 224))
+   }

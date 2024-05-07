@@ -1,0 +1,134 @@
+/* H O M E */
+
+@media (max-width: 768px) {
+
+
+    .imgWalker {
+        width: 70%;
+        padding-top: 12px;
+      }
+      .ulNav {
+        font-size: 10px;
+      }
+      footer {
+        font-size: 12px;
+      }
+      .tituloHome {
+        width: 390px;
+      }
+      .familia {
+        font-size: 50px;
+      }
+    }
+
+
+/* N O S O T R O S */    
+
+@media (max-width: 768px) {
+
+  .gridNosotros{
+    display: flex;
+    flex-direction: column;
+  }
+  .nosotrosUno{
+    padding-top: 0px;
+    margin: 10px 50px 0px 50px;
+    order:1;
+  }
+  .cajatextUno{
+    padding-top: 10px;
+    margin: 0px 50px 0px 50px;
+    order:2;
+    text-align: center;
+  }
+  .nosotrosDos{
+    margin: 10px 50px 10px 50px;
+    order:3;
+  }
+  .cajatextDos{
+    margin: 0px 50px 0px 50px;
+    order:4;
+    text-align: center;
+  }
+  .nosotrosTres{
+    margin: 10px 50px 10px 50px;
+    order:5;
+  }
+  .cajatextTres{
+    margin: 0px 50px 0px 50px;
+    order:6;
+    text-align: center;
+  }
+  .Valores {
+    margin: 100px 50px 10px 50px;
+    order:7;
+  }
+  .valoresCaaja{
+    margin: 0px 50px 0px 50px;
+    order:8;
+    text-align: center;
+  }
+  .valoresImg {
+    display: none;
+  }
+
+
+}
+
+/* P R O D U C T O S */
+
+@media (max-width: 768px) {
+    .articulos h1 {
+      font-size: 15px;
+    }
+    .accede {
+      font-size: 15px;
+    }
+    .bRugby, .bHockey, .bOutfit, .bFFAA{
+      width: 400px;
+    }
+  }
+
+
+/* C O N T A C T O */
+@media (max-width: 768px) {
+    .textContacto {
+      font-size: 40px;
+    }
+  
+  
+  }  
+
+/* T I E N D A */
+
+@media (max-width: 768px) {
+    .primerTexto {
+        font-size: 15px;
+    }
+
+    .novedades h1{
+        font-size: 20px;
+    }
+
+    .mas h1{
+        font-size: 18px;   
+    }
+.productosTienda {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    overflow-y: auto;
+    margin: 0px 20px 0px 20px;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f3f3f3;
+}
+
+.mas h2:hover{
+    background-color: $background;
+  margin: 0px 100px 0px 100px;
+}
+}

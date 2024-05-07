@@ -1,0 +1,103 @@
+
+.mainContacto {
+    background-image: url(../assets/contacto.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    
+}
+
+.tituloContacto {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+  }
+  .textContacto {
+    color: rgba(255, 255, 255, 0.8549019608);
+    font-size: 65px;
+    font-family:  $tipografia;
+    text-align: center;
+    font-weight: bold;
+    width: 50%;
+    text-shadow: 1px 5px 50px rgb(163, 163, 163);
+  }
+
+.opciones {
+    @include flex (center, none, none, 60px);
+    padding-top: 50px;
+    
+
+}
+.input {
+    border: 2px solid transparent;
+    width: 300px;
+    height: 50px;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+  
+.input:hover,
+.input:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+}
+  
+
+.shadow__btn {
+    padding: 15px 15px 15px 15px;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    font-family: Arial, sans-serif;
+}
+  
+.shadow__btn {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+}
+  
+.shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+}
+  
+.informacion {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 270px;
+    padding-bottom: 100px;
+}
+
+.imagenIso  {
+    padding-left: 80px;
+    
+}
+
+.isotipowkr {
+    width: 150px;
+}
+
+.isotipowkr:hover {
+    filter: drop-shadow(0 10px 5px rgb(81, 194, 255));
+  }
+
+.data {
+    padding-right: 80px;
+    font-family: Arial, sans-serif;
+    color: #fefffa;
+    text-shadow: 5px 5px 10px #525252;
+}
+

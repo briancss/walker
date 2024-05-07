@@ -66,16 +66,14 @@
     min-height: 100vh;
   }
   .tituloHome {
-    position: absolute;
-    top: 20%;
-    padding: 50px;
+    padding-left: 50px;
+    padding-top: 150px;
     font-family: "kanit", sans-serif;
     width: 550px;
   }
   .familia {
     font-size: 80px;
     color: rgb(255, 255, 255);
-    word-break: break-all;
   }
   .presentacion {
     display: flex;
@@ -83,7 +81,6 @@
     align-items: center;
     background-image: linear-gradient(to left bottom, #0f0f92, #0f1287, #11147c, #121571, #141666, #14166a, #14176e, #141772, #121785, #101799, #0f15ad, #1111c1);
   }
-
   .presentacion h2 {
     text-align: center;
     font-family: "kanit", sans-serif;
@@ -102,13 +99,13 @@
     margin-top: 20px;
   }
   .villegasImg:hover {
-    filter: drop-shadow(0 10px 10px rgb(244, 244, 244))
+    filter: drop-shadow(0 10px 10px rgb(244, 244, 244));
   }
   .centroImg:hover {
-    filter: drop-shadow(0 10px 10px rgb(253, 226, 51))
+    filter: drop-shadow(0 10px 10px rgb(253, 226, 51));
   }
   .estudiantesImg:hover {
-    filter: drop-shadow(0 10px 10px rgb(90, 150, 224))
+    filter: drop-shadow(0 10px 10px rgb(90, 150, 224));
   }
   /* FOOTER - HOME */
   footer {
@@ -127,12 +124,13 @@
   }
 }
 /* RESPONSIVE HOME */
+/* H O M E */
 @media (max-width: 1024px) {
   .ulNav {
     font-size: 14px;
   }
   .familia {
-    font-size: 60px;
+    font-size: 70px;
   }
   .presentacion h2 {
     font-size: 30px;
@@ -144,10 +142,70 @@
   .equipos img {
     width: 70%;
   }
-  .tituloHome {
-    width: 450px;
+}
+/* N O S O T R O S */
+@media (max-width: 1024px) {
+  .pUno {
+    font-size: 15px;
+  }
+  .pDos {
+    font-size: 15px;
+  }
+  .pTres {
+    font-size: 15px;
+  }
+  .pCuatro {
+    font-size: 15px;
+  }
+  /* FOOTER*/
+  footer p {
+    font-size: 13px;
   }
 }
+/* P R O D U C T O S */
+@media (max-width: 1024px) {
+  .articulos h1 {
+    font-size: 18px;
+  }
+  .accede {
+    font-size: 18px;
+  }
+  .bannerCat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bRugby, .bHockey, .bOutfit, .bFFAA {
+    width: 500px;
+  }
+}
+/* C O N T A C T O */
+@media (max-width: 1024px) {
+  .textContacto {
+    font-size: 50px;
+  }
+  .data {
+    color: #fefffa;
+    text-shadow: 1px 5px 10px #525252;
+  }
+}
+/* T I E N D A */
+@media (max-width: 1024px) {
+  .primerTexto {
+    font-size: 16px;
+  }
+  .novedades h1 {
+    font-size: 25px;
+  }
+  .mas h1 {
+    font-size: 20px;
+  }
+  .mas h2:hover {
+    background-color: #0f0f92;
+    margin: 0px 350px 0px 350px;
+  }
+}
+/* H O M E */
 @media (max-width: 768px) {
   .imgWalker {
     width: 70%;
@@ -163,9 +221,105 @@
     width: 390px;
   }
   .familia {
-    font-size: 45px;
+    font-size: 50px;
   }
 }
+/* N O S O T R O S */
+@media (max-width: 768px) {
+  .gridNosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  .nosotrosUno {
+    padding-top: 0px;
+    margin: 10px 50px 0px 50px;
+    order: 1;
+  }
+  .cajatextUno {
+    padding-top: 10px;
+    margin: 0px 50px 0px 50px;
+    order: 2;
+    text-align: center;
+  }
+  .nosotrosDos {
+    margin: 10px 50px 10px 50px;
+    order: 3;
+  }
+  .cajatextDos {
+    margin: 0px 50px 0px 50px;
+    order: 4;
+    text-align: center;
+  }
+  .nosotrosTres {
+    margin: 10px 50px 10px 50px;
+    order: 5;
+  }
+  .cajatextTres {
+    margin: 0px 50px 0px 50px;
+    order: 6;
+    text-align: center;
+  }
+  .Valores {
+    margin: 100px 50px 10px 50px;
+    order: 7;
+  }
+  .valoresCaaja {
+    margin: 0px 50px 0px 50px;
+    order: 8;
+    text-align: center;
+  }
+  .valoresImg {
+    display: none;
+  }
+}
+/* P R O D U C T O S */
+@media (max-width: 768px) {
+  .articulos h1 {
+    font-size: 15px;
+  }
+  .accede {
+    font-size: 15px;
+  }
+  .bRugby, .bHockey, .bOutfit, .bFFAA {
+    width: 400px;
+  }
+}
+/* C O N T A C T O */
+@media (max-width: 768px) {
+  .textContacto {
+    font-size: 40px;
+  }
+}
+/* T I E N D A */
+@media (max-width: 768px) {
+  .primerTexto {
+    font-size: 15px;
+  }
+  .novedades h1 {
+    font-size: 20px;
+  }
+  .mas h1 {
+    font-size: 18px;
+  }
+  .productosTienda {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    overflow-y: auto;
+    margin: 0px 20px 0px 20px;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f3f3f3;
+  }
+  .mas h2:hover {
+    background-color: #0f0f92;
+    margin: 0px 100px 0px 100px;
+  }
+}
+/* H O M E */
 @media (max-width: 684px) {
   .imgWalker {
     width: 80%;
@@ -212,6 +366,41 @@
     width: 40%;
   }
 }
+/* C O N T A C T O */
+@media (max-width: 684px) {
+  .opciones {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 100px 20px 100px;
+    gap: 50px;
+  }
+  .input {
+    border: 2px solid transparent;
+    width: auto;
+    height: 50px;
+    padding-left: 0;
+    outline: none;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+  .informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .imagenIso {
+    padding-left: 0;
+    align-self: center;
+    padding-bottom: 50px;
+  }
+  .data {
+    text-align: center;
+    padding-right: 0;
+    color: #ffffff;
+    text-shadow: 1px 5px 10px #424242;
+  }
+}
 /* ----------NOSOTROS-------- */
 @media (max-width: 2560px) {
   .imagenFront img {
@@ -224,7 +413,6 @@
     color: rgb(255, 255, 255);
     font-family: "kanit", sans-serif;
     font-size: 20px;
-    
   }
   .gridNosotros {
     display: grid;
@@ -238,15 +426,15 @@
     grid-row: 1/2;
     padding-top: 50px;
   }
-  .imgNosotrosuno{
+  .imgNosotrosuno {
     width: 100%;
   }
-  .cajatextUno{
+  .cajatextUno {
     grid-column: 4/6;
     grid-row: 1/2;
     padding-top: 50px;
   }
-  .pUno{
+  .pUno {
     color: #fefffa;
     font-family: "kanit", sans-serif;
     font-size: 18px;
@@ -256,46 +444,45 @@
     grid-column: 4/6;
     grid-row: 2/3;
   }
-  .imgNosotrosdos{
+  .imgNosotrosdos {
     width: 100%;
   }
-  .cajatextDos{
+  .cajatextDos {
     grid-column: 2/4;
     grid-row: 2/3;
   }
-  .pDos{
+  .pDos {
     color: #fefffa;
     font-family: "kanit", sans-serif;
     font-size: 18px;
     padding-right: 10px;
   }
-  .nosotrosTres{
+  .nosotrosTres {
     grid-column: 2/4;
     grid-row: 3/4;
   }
   .imgNosotrostres {
     width: 100%;
   }
-  .cajatextTres{
+  .cajatextTres {
     grid-column: 4/6;
     grid-row: 3/4;
   }
-  .pTres{
+  .pTres {
     color: #fefffa;
     font-family: "kanit", sans-serif;
     font-size: 18px;
     padding-left: 10px;
   }
   .Valores {
-    grid-column:2/6 ;
+    grid-column: 2/6;
     grid-row: 4/5;
   }
-  .valoresTitle{
+  .valoresTitle {
     color: #fefffa;
     font-family: "kanit", sans-serif;
     font-size: 30px;
     text-align: center;
-    
   }
   .pCuatro {
     color: #fefffa;
@@ -303,91 +490,210 @@
     font-size: 18px;
     text-align: center;
   }
-  .valoresCaaja{
+  .valoresCaaja {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
   }
-
-  .valoresImg{
+  .valoresImg {
     width: 50%;
   }
 }
 /* __________RESPONSIVE________________ */
-@media (max-width: 1440px) {
-
-}
+/* H O M E */
 @media (max-width: 1024px) {
-  .pUno{
+  .ulNav {
+    font-size: 14px;
+  }
+  .familia {
+    font-size: 70px;
+  }
+  .presentacion h2 {
+    font-size: 30px;
+  }
+  .equipos {
+    gap: 10px;
+    margin-left: 50px;
+  }
+  .equipos img {
+    width: 70%;
+  }
+}
+/* N O S O T R O S */
+@media (max-width: 1024px) {
+  .pUno {
     font-size: 15px;
   }
-  .pDos{
+  .pDos {
     font-size: 15px;
   }
-  .pTres{
+  .pTres {
     font-size: 15px;
   }
-  .pCuatro{
+  .pCuatro {
     font-size: 15px;
   }
-
   /* FOOTER*/
   footer p {
     font-size: 13px;
   }
 }
-@media (max-width: 768px) {
-
-
+/* P R O D U C T O S */
+@media (max-width: 1024px) {
+  .articulos h1 {
+    font-size: 18px;
+  }
+  .accede {
+    font-size: 18px;
+  }
+  .bannerCat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bRugby, .bHockey, .bOutfit, .bFFAA {
+    width: 500px;
+  }
 }
-@media (max-width: 700px) {
-  .gridNosotros{
+/* C O N T A C T O */
+@media (max-width: 1024px) {
+  .textContacto {
+    font-size: 50px;
+  }
+  .data {
+    color: #fefffa;
+    text-shadow: 1px 5px 10px #525252;
+  }
+}
+/* T I E N D A */
+@media (max-width: 1024px) {
+  .primerTexto {
+    font-size: 16px;
+  }
+  .novedades h1 {
+    font-size: 25px;
+  }
+  .mas h1 {
+    font-size: 20px;
+  }
+  .mas h2:hover {
+    background-color: #0f0f92;
+    margin: 0px 350px 0px 350px;
+  }
+}
+/* H O M E */
+@media (max-width: 768px) {
+  .imgWalker {
+    width: 70%;
+    padding-top: 12px;
+  }
+  .ulNav {
+    font-size: 10px;
+  }
+  footer {
+    font-size: 12px;
+  }
+  .tituloHome {
+    width: 390px;
+  }
+  .familia {
+    font-size: 50px;
+  }
+}
+/* N O S O T R O S */
+@media (max-width: 768px) {
+  .gridNosotros {
     display: flex;
     flex-direction: column;
   }
-  .nosotrosUno{
+  .nosotrosUno {
     padding-top: 0px;
     margin: 10px 50px 0px 50px;
-    order:1;
+    order: 1;
   }
-  .cajatextUno{
+  .cajatextUno {
     padding-top: 10px;
     margin: 0px 50px 0px 50px;
-    order:2;
+    order: 2;
     text-align: center;
   }
-  .nosotrosDos{
+  .nosotrosDos {
     margin: 10px 50px 10px 50px;
-    order:3;
+    order: 3;
   }
-  .cajatextDos{
+  .cajatextDos {
     margin: 0px 50px 0px 50px;
-    order:4;
+    order: 4;
     text-align: center;
   }
-  .nosotrosTres{
+  .nosotrosTres {
     margin: 10px 50px 10px 50px;
-    order:5;
+    order: 5;
   }
-  .cajatextTres{
+  .cajatextTres {
     margin: 0px 50px 0px 50px;
-    order:6;
+    order: 6;
     text-align: center;
   }
   .Valores {
     margin: 100px 50px 10px 50px;
-    order:7;
+    order: 7;
   }
-  .valoresCaaja{
+  .valoresCaaja {
     margin: 0px 50px 0px 50px;
-    order:8;
+    order: 8;
     text-align: center;
   }
   .valoresImg {
     display: none;
   }
-
-
+}
+/* P R O D U C T O S */
+@media (max-width: 768px) {
+  .articulos h1 {
+    font-size: 15px;
+  }
+  .accede {
+    font-size: 15px;
+  }
+  .bRugby, .bHockey, .bOutfit, .bFFAA {
+    width: 400px;
+  }
+}
+/* C O N T A C T O */
+@media (max-width: 768px) {
+  .textContacto {
+    font-size: 40px;
+  }
+}
+/* T I E N D A */
+@media (max-width: 768px) {
+  .primerTexto {
+    font-size: 15px;
+  }
+  .novedades h1 {
+    font-size: 20px;
+  }
+  .mas h1 {
+    font-size: 18px;
+  }
+  .productosTienda {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    overflow-y: auto;
+    margin: 0px 20px 0px 20px;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f3f3f3;
+  }
+  .mas h2:hover {
+    background-color: #0f0f92;
+    margin: 0px 100px 0px 100px;
+  }
 }
 /* ------------ PRODUCTOS------------------ */
 @media (max-width: 2560px) {
@@ -419,7 +725,6 @@
     -webkit-filter: grayscale(100%);
     -webkit-transition: all 1s ease;
   }
-
   .grid1:hover, .grid12:hover, .grid11:hover, .grid10:hover, .grid9:hover, .grid8:hover, .grid7:hover, .grid6:hover, .grid5:hover, .grid4:hover, .grid3:hover, .grid2:hover {
     filter: grayscale(0%);
     filter: gray;
@@ -559,36 +864,166 @@
   }
   .catalogos {
     background-image: linear-gradient(to left bottom, #0f0f92, #0f1287, #11147c, #121571, #141666, #14166a, #14176e, #141772, #121785, #101799, #0f15ad, #1111c1);
- 
   }
-.bannerCat{
-display: grid;
-  place-items: center;
-  gap:20px;
+  .bannerCat {
+    display: grid;
+    place-items: center;
+    gap: 20px;
+  }
+  .bRugby:hover, .bHockey:hover, .bOutfit:hover, .bFFAA:hover {
+    filter: drop-shadow(0 2px 15px rgb(85, 85, 183));
+  }
 }
-
-.bRugby:hover, .bHockey:hover, .bOutfit:hover, .bFFAA:hover {
-  filter: drop-shadow(0 2px 15px rgb(85, 85, 183));
-}
-}
-
 /*  RESPONSIVE   */
+/* H O M E */
+@media (max-width: 1024px) {
+  .ulNav {
+    font-size: 14px;
+  }
+  .familia {
+    font-size: 70px;
+  }
+  .presentacion h2 {
+    font-size: 30px;
+  }
+  .equipos {
+    gap: 10px;
+    margin-left: 50px;
+  }
+  .equipos img {
+    width: 70%;
+  }
+}
+/* N O S O T R O S */
+@media (max-width: 1024px) {
+  .pUno {
+    font-size: 15px;
+  }
+  .pDos {
+    font-size: 15px;
+  }
+  .pTres {
+    font-size: 15px;
+  }
+  .pCuatro {
+    font-size: 15px;
+  }
+  /* FOOTER*/
+  footer p {
+    font-size: 13px;
+  }
+}
+/* P R O D U C T O S */
 @media (max-width: 1024px) {
   .articulos h1 {
     font-size: 18px;
   }
-  .accede{
+  .accede {
     font-size: 18px;
   }
-.bannerCat{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  .bannerCat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bRugby, .bHockey, .bOutfit, .bFFAA {
+    width: 500px;
+  }
 }
-.bRugby, .bHockey, .bOutfit, .bFFAA{
-  width: 500px;
+/* C O N T A C T O */
+@media (max-width: 1024px) {
+  .textContacto {
+    font-size: 50px;
+  }
+  .data {
+    color: #fefffa;
+    text-shadow: 1px 5px 10px #525252;
+  }
 }
+/* T I E N D A */
+@media (max-width: 1024px) {
+  .primerTexto {
+    font-size: 16px;
+  }
+  .novedades h1 {
+    font-size: 25px;
+  }
+  .mas h1 {
+    font-size: 20px;
+  }
+  .mas h2:hover {
+    background-color: #0f0f92;
+    margin: 0px 350px 0px 350px;
+  }
 }
+/* H O M E */
+@media (max-width: 768px) {
+  .imgWalker {
+    width: 70%;
+    padding-top: 12px;
+  }
+  .ulNav {
+    font-size: 10px;
+  }
+  footer {
+    font-size: 12px;
+  }
+  .tituloHome {
+    width: 390px;
+  }
+  .familia {
+    font-size: 50px;
+  }
+}
+/* N O S O T R O S */
+@media (max-width: 768px) {
+  .gridNosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  .nosotrosUno {
+    padding-top: 0px;
+    margin: 10px 50px 0px 50px;
+    order: 1;
+  }
+  .cajatextUno {
+    padding-top: 10px;
+    margin: 0px 50px 0px 50px;
+    order: 2;
+    text-align: center;
+  }
+  .nosotrosDos {
+    margin: 10px 50px 10px 50px;
+    order: 3;
+  }
+  .cajatextDos {
+    margin: 0px 50px 0px 50px;
+    order: 4;
+    text-align: center;
+  }
+  .nosotrosTres {
+    margin: 10px 50px 10px 50px;
+    order: 5;
+  }
+  .cajatextTres {
+    margin: 0px 50px 0px 50px;
+    order: 6;
+    text-align: center;
+  }
+  .Valores {
+    margin: 100px 50px 10px 50px;
+    order: 7;
+  }
+  .valoresCaaja {
+    margin: 0px 50px 0px 50px;
+    order: 8;
+    text-align: center;
+  }
+  .valoresImg {
+    display: none;
+  }
+}
+/* P R O D U C T O S */
 @media (max-width: 768px) {
   .articulos h1 {
     font-size: 15px;
@@ -596,21 +1031,57 @@ display: grid;
   .accede {
     font-size: 15px;
   }
-  .bRugby, .bHockey, .bOutfit, .bFFAA{
+  .bRugby, .bHockey, .bOutfit, .bFFAA {
     width: 400px;
   }
 }
+/* C O N T A C T O */
+@media (max-width: 768px) {
+  .textContacto {
+    font-size: 40px;
+  }
+}
+/* T I E N D A */
+@media (max-width: 768px) {
+  .primerTexto {
+    font-size: 15px;
+  }
+  .novedades h1 {
+    font-size: 20px;
+  }
+  .mas h1 {
+    font-size: 18px;
+  }
+  .productosTienda {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    overflow-y: auto;
+    margin: 0px 20px 0px 20px;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f3f3f3;
+  }
+  .mas h2:hover {
+    background-color: #0f0f92;
+    margin: 0px 100px 0px 100px;
+  }
+}
+/* P R O D U C T O S */
 @media (max-width: 753px) {
   .mainProductos {
     background-image: linear-gradient(to left bottom, #0f0f92, #0f1287, #11147c, #121571, #141666, #14166a, #14176e, #141772, #121785, #101799, #0f15ad, #1111c1);
   }
   .gridProd {
-    display: flex;
-    order: 2;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat 2, 1fr;
+    grid-template-rows: repeat(6, 1fr);
     margin: 20px 100px 20px 100px;
   }
-  .bRugby, .bHockey, .bOutfit, .bFFAA{
+  .bRugby, .bHockey, .bOutfit, .bFFAA {
     width: 350px;
   }
 }
@@ -703,6 +1174,63 @@ display: grid;
     text-shadow: 5px 5px 10px #525252;
   }
 }
+/* Responsive */
+/* H O M E */
+@media (max-width: 1024px) {
+  .ulNav {
+    font-size: 14px;
+  }
+  .familia {
+    font-size: 70px;
+  }
+  .presentacion h2 {
+    font-size: 30px;
+  }
+  .equipos {
+    gap: 10px;
+    margin-left: 50px;
+  }
+  .equipos img {
+    width: 70%;
+  }
+}
+/* N O S O T R O S */
+@media (max-width: 1024px) {
+  .pUno {
+    font-size: 15px;
+  }
+  .pDos {
+    font-size: 15px;
+  }
+  .pTres {
+    font-size: 15px;
+  }
+  .pCuatro {
+    font-size: 15px;
+  }
+  /* FOOTER*/
+  footer p {
+    font-size: 13px;
+  }
+}
+/* P R O D U C T O S */
+@media (max-width: 1024px) {
+  .articulos h1 {
+    font-size: 18px;
+  }
+  .accede {
+    font-size: 18px;
+  }
+  .bannerCat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bRugby, .bHockey, .bOutfit, .bFFAA {
+    width: 500px;
+  }
+}
+/* C O N T A C T O */
 @media (max-width: 1024px) {
   .textContacto {
     font-size: 50px;
@@ -711,18 +1239,186 @@ display: grid;
     color: #fefffa;
     text-shadow: 1px 5px 10px #525252;
   }
-
 }
-
+/* T I E N D A */
+@media (max-width: 1024px) {
+  .primerTexto {
+    font-size: 16px;
+  }
+  .novedades h1 {
+    font-size: 25px;
+  }
+  .mas h1 {
+    font-size: 20px;
+  }
+  .mas h2:hover {
+    background-color: #0f0f92;
+    margin: 0px 350px 0px 350px;
+  }
+}
+/* H O M E */
+@media (max-width: 768px) {
+  .imgWalker {
+    width: 70%;
+    padding-top: 12px;
+  }
+  .ulNav {
+    font-size: 10px;
+  }
+  footer {
+    font-size: 12px;
+  }
+  .tituloHome {
+    width: 390px;
+  }
+  .familia {
+    font-size: 50px;
+  }
+}
+/* N O S O T R O S */
+@media (max-width: 768px) {
+  .gridNosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  .nosotrosUno {
+    padding-top: 0px;
+    margin: 10px 50px 0px 50px;
+    order: 1;
+  }
+  .cajatextUno {
+    padding-top: 10px;
+    margin: 0px 50px 0px 50px;
+    order: 2;
+    text-align: center;
+  }
+  .nosotrosDos {
+    margin: 10px 50px 10px 50px;
+    order: 3;
+  }
+  .cajatextDos {
+    margin: 0px 50px 0px 50px;
+    order: 4;
+    text-align: center;
+  }
+  .nosotrosTres {
+    margin: 10px 50px 10px 50px;
+    order: 5;
+  }
+  .cajatextTres {
+    margin: 0px 50px 0px 50px;
+    order: 6;
+    text-align: center;
+  }
+  .Valores {
+    margin: 100px 50px 10px 50px;
+    order: 7;
+  }
+  .valoresCaaja {
+    margin: 0px 50px 0px 50px;
+    order: 8;
+    text-align: center;
+  }
+  .valoresImg {
+    display: none;
+  }
+}
+/* P R O D U C T O S */
+@media (max-width: 768px) {
+  .articulos h1 {
+    font-size: 15px;
+  }
+  .accede {
+    font-size: 15px;
+  }
+  .bRugby, .bHockey, .bOutfit, .bFFAA {
+    width: 400px;
+  }
+}
+/* C O N T A C T O */
 @media (max-width: 768px) {
   .textContacto {
     font-size: 40px;
   }
-
-
 }
-
-@media (max-width: 600px) {
+/* T I E N D A */
+@media (max-width: 768px) {
+  .primerTexto {
+    font-size: 15px;
+  }
+  .novedades h1 {
+    font-size: 20px;
+  }
+  .mas h1 {
+    font-size: 18px;
+  }
+  .productosTienda {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    overflow-y: auto;
+    margin: 0px 20px 0px 20px;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f3f3f3;
+  }
+  .mas h2:hover {
+    background-color: #0f0f92;
+    margin: 0px 100px 0px 100px;
+  }
+}
+/* H O M E */
+@media (max-width: 684px) {
+  .imgWalker {
+    width: 80%;
+  }
+  .menu-icono {
+    padding-top: 7px;
+    padding-left: 7px;
+    width: 40px;
+  }
+  label {
+    display: block;
+    cursor: pointer;
+  }
+  .ulNav {
+    display: block;
+    position: fixed;
+    left: -200%;
+    background-color: #0f0f92;
+    width: 100%;
+    height: 100vh;
+  }
+  .ulNav li {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background-color: #0f0f92;
+  }
+  .navInput:checked ~ .ulNav {
+    left: 0%;
+  }
+  .presentacion h2 {
+    font-size: 20px;
+  }
+  .tituloHome {
+    width: 310px;
+  }
+  .familia {
+    font-size: 37px;
+  }
+  .equipos {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 40%;
+  }
+}
+/* C O N T A C T O */
+@media (max-width: 684px) {
   .opciones {
     display: flex;
     flex-direction: column;
@@ -739,28 +1435,23 @@ display: grid;
     border-radius: 10px;
     transition: all 0.5s;
   }
-
   .informacion {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-.imagenIso{
-  padding-left: 0;
-  align-self: center;
-  padding-bottom: 50px;
-}  
-.data {
-text-align: center;
-padding-right: 0;
-  color: #ffffff;
-  text-shadow: 1px 5px 10px #424242;
+  .imagenIso {
+    padding-left: 0;
+    align-self: center;
+    padding-bottom: 50px;
+  }
+  .data {
+    text-align: center;
+    padding-right: 0;
+    color: #ffffff;
+    text-shadow: 1px 5px 10px #424242;
+  }
 }
-
-
-}
-
-
 /*--------------TIENDA -------------*/
 @media (max-width: 2560px) {
   .primerTexto {
@@ -778,7 +1469,6 @@ padding-right: 0;
   }
   .mainTienda {
     background-image: linear-gradient(to left bottom, #0f0f92, #0f1287, #11147c, #121571, #141666, #14166a, #14176e, #141772, #121785, #101799, #0f15ad, #1111c1);
-
   }
   .novedades {
     font-family: "kanit", sans-serif;
@@ -829,7 +1519,7 @@ padding-right: 0;
     font-size: 20px;
   }
   .mas h2:hover {
-    background-color: #2b2bc7;
+    background-color: #0f0f92;
     margin: 0px 650px 0px 650px;
   }
   .mas h2 a {
@@ -837,6 +1527,72 @@ padding-right: 0;
   }
 }
 /*  REESPONSIVE */
+/* H O M E */
+@media (max-width: 1024px) {
+  .ulNav {
+    font-size: 14px;
+  }
+  .familia {
+    font-size: 70px;
+  }
+  .presentacion h2 {
+    font-size: 30px;
+  }
+  .equipos {
+    gap: 10px;
+    margin-left: 50px;
+  }
+  .equipos img {
+    width: 70%;
+  }
+}
+/* N O S O T R O S */
+@media (max-width: 1024px) {
+  .pUno {
+    font-size: 15px;
+  }
+  .pDos {
+    font-size: 15px;
+  }
+  .pTres {
+    font-size: 15px;
+  }
+  .pCuatro {
+    font-size: 15px;
+  }
+  /* FOOTER*/
+  footer p {
+    font-size: 13px;
+  }
+}
+/* P R O D U C T O S */
+@media (max-width: 1024px) {
+  .articulos h1 {
+    font-size: 18px;
+  }
+  .accede {
+    font-size: 18px;
+  }
+  .bannerCat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bRugby, .bHockey, .bOutfit, .bFFAA {
+    width: 500px;
+  }
+}
+/* C O N T A C T O */
+@media (max-width: 1024px) {
+  .textContacto {
+    font-size: 50px;
+  }
+  .data {
+    color: #fefffa;
+    text-shadow: 1px 5px 10px #525252;
+  }
+}
+/* T I E N D A */
 @media (max-width: 1024px) {
   .primerTexto {
     font-size: 16px;
@@ -852,6 +1608,92 @@ padding-right: 0;
     margin: 0px 350px 0px 350px;
   }
 }
+/* H O M E */
+@media (max-width: 768px) {
+  .imgWalker {
+    width: 70%;
+    padding-top: 12px;
+  }
+  .ulNav {
+    font-size: 10px;
+  }
+  footer {
+    font-size: 12px;
+  }
+  .tituloHome {
+    width: 390px;
+  }
+  .familia {
+    font-size: 50px;
+  }
+}
+/* N O S O T R O S */
+@media (max-width: 768px) {
+  .gridNosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  .nosotrosUno {
+    padding-top: 0px;
+    margin: 10px 50px 0px 50px;
+    order: 1;
+  }
+  .cajatextUno {
+    padding-top: 10px;
+    margin: 0px 50px 0px 50px;
+    order: 2;
+    text-align: center;
+  }
+  .nosotrosDos {
+    margin: 10px 50px 10px 50px;
+    order: 3;
+  }
+  .cajatextDos {
+    margin: 0px 50px 0px 50px;
+    order: 4;
+    text-align: center;
+  }
+  .nosotrosTres {
+    margin: 10px 50px 10px 50px;
+    order: 5;
+  }
+  .cajatextTres {
+    margin: 0px 50px 0px 50px;
+    order: 6;
+    text-align: center;
+  }
+  .Valores {
+    margin: 100px 50px 10px 50px;
+    order: 7;
+  }
+  .valoresCaaja {
+    margin: 0px 50px 0px 50px;
+    order: 8;
+    text-align: center;
+  }
+  .valoresImg {
+    display: none;
+  }
+}
+/* P R O D U C T O S */
+@media (max-width: 768px) {
+  .articulos h1 {
+    font-size: 15px;
+  }
+  .accede {
+    font-size: 15px;
+  }
+  .bRugby, .bHockey, .bOutfit, .bFFAA {
+    width: 400px;
+  }
+}
+/* C O N T A C T O */
+@media (max-width: 768px) {
+  .textContacto {
+    font-size: 40px;
+  }
+}
+/* T I E N D A */
 @media (max-width: 768px) {
   .primerTexto {
     font-size: 15px;

@@ -1,0 +1,16 @@
+/* P R O D U C T O S */
+
+@media (max-width: 753px) {
+    .mainProductos {
+      background-image: $gradiente;
+    }
+    .gridProd {
+      display: grid;
+      grid-template-columns: repeat (2, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      margin: 20px 100px 20px 100px;
+    }
+    .bRugby, .bHockey, .bOutfit, .bFFAA{
+      width: 350px;
+    }
+  }

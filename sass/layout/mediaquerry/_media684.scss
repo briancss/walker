@@ -1,0 +1,100 @@
+/* H O M E */
+
+@media (max-width: 684px) {
+
+    .imgWalker {
+       width: 80%;
+       
+    }    
+        
+    .menu-icono {
+        padding-top: 7px;
+        padding-left: 7px;
+        width: 40px;
+    }
+            
+            
+     label {
+        display: block;
+        cursor: pointer; 
+    }
+    
+    .ulNav {
+        display: block;
+        position:fixed;
+        left:-200%;
+        background-color: $background;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .ulNav li{
+        padding: 2rem;
+        display:flex;
+        justify-content: center;
+        background-color: $background;
+    }
+    
+    .navInput:checked ~ .ulNav{
+        left: 0%;
+    }
+    
+    .presentacion h2 {
+        font-size: 20px;
+    
+    }
+    .tituloHome {
+        width: 310px;
+      }
+      .familia {
+        font-size: 37px;
+      }
+    
+    .equipos {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 40%;
+    }
+    
+    }
+
+/* C O N T A C T O */
+@media (max-width: 684px) {
+    .opciones {
+      display: flex;
+      flex-direction: column;
+      margin: 20px 100px 20px 100px;
+      gap: 50px;
+    }
+    .input {
+      border: 2px solid transparent;
+      width: auto;
+      height: 50px;
+      padding-left: 0;
+      outline: none;
+      background-color: #F3F3F3;
+      border-radius: 10px;
+      transition: all 0.5s;
+    }
+  
+    .informacion {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  .imagenIso{
+    padding-left: 0;
+    align-self: center;
+    padding-bottom: 50px;
+  }  
+  .data {
+  text-align: center;
+  padding-right: 0;
+    color: #ffffff;
+    text-shadow: 1px 5px 10px #424242;
+  }
+  
+  
+  }
+      

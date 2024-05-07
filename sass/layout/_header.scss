@@ -1,0 +1,59 @@
+
+
+    .navBar {
+        background-color: $background;
+      
+    }
+    
+    .imgWalker {
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    
+    .barra {
+     @include flex (space-between, none, none, none);
+    }
+    
+    .ulNav {
+    
+    @include flex (none, center, none, 20px);
+    
+    }
+    
+    .ulNav li a{
+        color: $fuente;
+        text-decoration: none;
+        font-family: $tipografia;
+        
+    }
+    
+    .ulNav a:hover{
+        color: rgb(38, 190, 255);
+    }
+    
+    .enlaces img {
+        padding-top: 4px;
+        padding-right: 2px;
+        justify-content: flex-end;
+        align-items: center;
+        width: 25px;
+        margin:10px
+    
+    }
+    
+    .enlaces img:hover {
+        transform: translateY(-2px);
+    }
+        
+    .menu-icono {
+        width: 25px;
+        }
+    
+    .navInput{
+        display: none;
+    }
+    
+    label {
+        display: none;
+    }
+

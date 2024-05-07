@@ -34,7 +34,6 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: "kanit", sans-serif;
-    
   }
   .ulNav a:hover {
     color: rgb(38, 190, 255);
@@ -1077,10 +1076,9 @@
     background-image: linear-gradient(to left bottom, #0f0f92, #0f1287, #11147c, #121571, #141666, #14166a, #14176e, #141772, #121785, #101799, #0f15ad, #1111c1);
   }
   .gridProd {
-    display: grid;
-    grid-template-columns: repeat 2, 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    margin: 20px 100px 20px 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 150px 20px 150px;
   }
   .bRugby, .bHockey, .bOutfit, .bFFAA {
     width: 350px;

@@ -5,10 +5,10 @@
       background-image: $gradiente;
     }
     .gridProd {
-      display: grid;
-      grid-template-columns: repeat (2, 1fr);
-      grid-template-rows: repeat(6, 1fr);
-      margin: 20px 100px 20px 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 150px 20px 150px;
+
     }
     .bRugby, .bHockey, .bOutfit, .bFFAA{
       width: 350px;
